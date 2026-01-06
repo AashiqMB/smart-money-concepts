@@ -180,6 +180,15 @@ export SMC_CREDIT=0
 
 This method will hide the credit message when you first import the library.
 
+## TradingView (Pine Script v6)
+
+If you would like to experiment with these concepts directly on TradingView, copy the contents of [`pinescript/smc_indicator_v6.pine`](pinescript/smc_indicator_v6.pine) into a new Pine Script v6 indicator. The script highlights:
+
+- Fair Value Gaps (bullish and bearish) with optional mitigation tracking
+- BOS/CHOCH structure shifts from confirmed swings
+- Order blocks derived from the most recent displacement candle after a structure break
+- Simple liquidity pools when consecutive swing highs or lows form within a configurable range
+
 ## Contributing
 
 Please feel free to contribute to the project. By creating your own indicators or improving the existing ones. If you are struggling to find something to do then please check out the issues tab for requested changes.
